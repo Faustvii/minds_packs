@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "pack_format": 57,
+    "supported_formats": { "min_inclusive": 57, "max_inclusive": 999 },
+    "description": [
+      {
+        "text": "Stonecutters now accept Normal Deepslate",
+        "color": "gold"
+      },
+      {
+        "text": "\nFaust Corp",
+        "color": "yellow"
+      }
+    ]
+  }
+}
