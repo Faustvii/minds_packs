@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": { "translate": "We Have Liftoff!" },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Launch yourself with TNT or Wind Charges at least 100 blocks into the stratosphere"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/who_needs_rockets",
+  "rewards": {},
+  "criteria": {
+    "we_have_liftoff": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": ["minecraft:wind_charge", "minecraft:tnt"]
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 100.0
+          }
+        }
+      }
+    }
+  }
+}

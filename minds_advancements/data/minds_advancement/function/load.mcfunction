@@ -1,2 +1,3 @@
 scoreboard objectives add minds_health health
 scoreboard objectives add minds_vanilla_advancements_completed dummy
+scoreboard players set #TotalVanillaAdvancements minds_vanilla_advancements_completed 0
