@@ -1,0 +1,1 @@
+scoreboard players add @s minds_vanilla_advancements_completed 1

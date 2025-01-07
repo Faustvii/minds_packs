@@ -1,0 +1,33 @@
+{
+  "display": {
+    "title": {
+      "translate": "minds.advancement.adventure.turncowbrown.title",
+      "fallback": "A Shocking Turn"
+    },
+    "description": {
+      "text": "Convert a Red Mooshroom to a Brown Mooshroom using lightning"
+    },
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lightningcow": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:mooshroom"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["lightningcow"]],
+  "parent": "minecraft:adventure/throw_trident",
+  "rewards": {}
+}

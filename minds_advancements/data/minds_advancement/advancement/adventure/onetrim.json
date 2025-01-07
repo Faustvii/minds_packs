@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.onetrim.title",
+      "fallback": "Stylish"
+    },
+    "description": {
+      "text": "Find a trim"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minds_advancement:smithing_templates"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["trim"]],
+  "rewards": {}
+}

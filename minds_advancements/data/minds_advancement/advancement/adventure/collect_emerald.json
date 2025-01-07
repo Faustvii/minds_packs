@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.collect_emerald.title",
+      "fallback": "A Fistful of Dollars"
+    },
+    "description": {
+      "text": "Collect an emerald"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "collectemerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:emerald"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["collectemerald"]],
+  "rewards": {}
+}

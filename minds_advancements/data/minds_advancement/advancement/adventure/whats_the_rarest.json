@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_emerald_ore"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.whats_the_rarest.title",
+      "fallback": "Whats the Rarest...?"
+    },
+    "description": {
+      "text": "Obtain Deepslate Emerald Ore"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "emeraldore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:deepslate_emerald_ore"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["emeraldore"]],
+  "rewards": {
+    "experience": 100
+  }
+}

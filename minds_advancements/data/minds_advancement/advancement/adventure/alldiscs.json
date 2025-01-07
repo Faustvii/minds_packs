@@ -1,0 +1,235 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.alldiscs.title",
+      "fallback": "Certified DJ"
+    },
+    "description": {
+      "text": "Collect all Music Discs"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minds_advancement:adventure/onedisc",
+  "criteria": {
+    "disccat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_cat"]
+          }
+        ]
+      }
+    },
+    "disc13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_13"]
+          }
+        ]
+      }
+    },
+    "disc11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_11"]
+          }
+        ]
+      }
+    },
+    "disc5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_5"]
+          }
+        ]
+      }
+    },
+    "discchirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_chirp"]
+          }
+        ]
+      }
+    },
+    "discblocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_blocks"]
+          }
+        ]
+      }
+    },
+    "discwait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_wait"]
+          }
+        ]
+      }
+    },
+    "discward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_ward"]
+          }
+        ]
+      }
+    },
+    "discpigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_pigstep"]
+          }
+        ]
+      }
+    },
+    "discotherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_otherside"]
+          }
+        ]
+      }
+    },
+    "discrelic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_relic"]
+          }
+        ]
+      }
+    },
+    "discmellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_mellohi"]
+          }
+        ]
+      }
+    },
+    "discstrad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_strad"]
+          }
+        ]
+      }
+    },
+    "discstal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_stal"]
+          }
+        ]
+      }
+    },
+    "discfar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_far"]
+          }
+        ]
+      }
+    },
+    "discmall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_mall"]
+          }
+        ]
+      }
+    },
+    "disccreator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_creator"]
+          }
+        ]
+      }
+    },
+    "disccreatormusicbox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_creator_music_box"]
+          }
+        ]
+      }
+    },
+    "discprecipice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_precipice"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["disccat"],
+    ["disc13"],
+    ["disc11"],
+    ["disc5"],
+    ["discchirp"],
+    ["discblocks"],
+    ["discfar"],
+    ["discmall"],
+    ["discmellohi"],
+    ["discotherside"],
+    ["discpigstep"],
+    ["discrelic"],
+    ["discstal"],
+    ["discstrad"],
+    ["discwait"],
+    ["discward"],
+    ["discprecipice"],
+    ["disccreator"],
+    ["disccreatormusicbox"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

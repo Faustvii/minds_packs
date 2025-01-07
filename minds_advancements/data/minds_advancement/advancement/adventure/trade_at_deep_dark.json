@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.trade_at_deep_dark.title",
+      "fallback": "Sculk Trader"
+    },
+    "description": {
+      "text": "Trade with a Villager in the deep Dark"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade_at_world_height",
+  "criteria": {
+    "tradeatdark": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["tradeatdark"]],
+  "rewards": {
+    "experience": 50
+  }
+}

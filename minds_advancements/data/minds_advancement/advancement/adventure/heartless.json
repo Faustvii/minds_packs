@@ -1,0 +1,448 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.heartless.title",
+      "fallback": "Heartless"
+    },
+    "description": {
+      "text": "Kill every baby"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minds_advancement:adventure/you_monster",
+  "criteria": {
+    "killcow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cow",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killarmadillo": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cow",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killchicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "chicken",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killpig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "pig",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killgoat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "goat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killsheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killmooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mooshroom",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killrabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "rabbit",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killwolf": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killocelot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ocelot",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killcat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killvillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killhorse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "horse",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killdonkey": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "donkey",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killmule": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mule",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killllama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killtraderllama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killfox": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "fox",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killaxolotl": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "axolotl",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killbee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bee",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killpanda": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "panda",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killturtle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "turtle",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killhoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "hoglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killstrider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "strider",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killpolarbear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "polar_bear",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killtadpole": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "tadpole",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killcamel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "camel",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killsniffer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sniffer",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killzombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killdrowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "drowned",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killhusk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "husk",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killzombiepiglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombified_piglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killpiglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "piglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killzombievillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_villager",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "killzoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zoglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["killcow"],
+    ["killarmadillo"],
+    ["killchicken"],
+    ["killpig"],
+    ["killgoat"],
+    ["killsheep"],
+    ["killmooshroom"],
+    ["killrabbit"],
+    ["killwolf"],
+    ["killocelot"],
+    ["killcat"],
+    ["killvillager"],
+    ["killhorse"],
+    ["killgoat"],
+    ["killmule"],
+    ["killllama"],
+    ["killtraderllama"],
+    ["killfox"],
+    ["killaxolotl"],
+    ["killbee"],
+    ["killpanda"],
+    ["killturtle"],
+    ["killhoglin"],
+    ["killstrider"],
+    ["killstrider"],
+    ["killpolarbear"],
+    ["killtadpole"],
+    ["killcamel"],
+    ["killsniffer"],
+    ["killzombie"],
+    ["killdrowned"],
+    ["killhusk"],
+    ["killzombiepiglin"],
+    ["killpiglin"],
+    ["killzombievillager"],
+    ["killzoglin"],
+    ["killdonkey"]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}

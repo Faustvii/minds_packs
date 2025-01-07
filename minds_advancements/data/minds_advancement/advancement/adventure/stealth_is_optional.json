@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+	"title": {
+		"translate": "minds.advancement.adventure.stealth_is_optional.title",
+		"fallback": "Stealth is Optional"
+	  },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Overcome a Warden in the deepest and darkest of caves"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "warden"
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

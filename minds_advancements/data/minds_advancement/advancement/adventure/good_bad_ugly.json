@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.good_bad_ugly.title",
+      "fallback": "The Good, The Bad, and The Ugly"
+    },
+    "description": {
+      "text": "Trade with a Villager, kill a Vindicator, and kill a Witch while riding a Horse"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minds_advancement:adventure/collect_stack_of_emeralds",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "vehicle": {
+              "type": "minecraft:horse"
+            }
+          }
+        }
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        },
+        "killing_blow": {
+          "source_entity": {
+            "vehicle": {
+              "type": "minecraft:horse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["villager"], ["vindicator"], ["witch"]],
+  "rewards": {
+    "experience": 200
+  }
+}

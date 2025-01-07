@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:pig",
+    "minecraft:strider",
+    "minecraft:minecart",
+    "minecraft:camel",
+    "#minds_advancement:llamas",
+    "#minds_advancement:all_horses",
+    "#minds_advancement:all_boats"
+  ]
+}

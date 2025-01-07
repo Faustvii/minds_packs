@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "player",
+      "advancements": {
+        "minecraft:adventure/walk_on_powder_snow_with_leather_boots": true
+      }
+    }
+  }
+}

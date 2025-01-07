@@ -1,0 +1,378 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.explore_all_structures.title",
+      "fallback": "World Tour"
+    },
+    "description": {
+      "text": "Explore every structure"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/adventuring_time",
+  "criteria": {
+    "findstronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
+        }
+      }
+    },
+    "findoutpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:pillager_outpost"
+          }
+        }
+      }
+    },
+    "findancientcity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
+    "findmineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:mineshaft"
+          }
+        }
+      }
+    },
+    "findtrailruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:trail_ruins"
+          }
+        }
+      }
+    },
+    "finddesertpyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:desert_pyramid"
+          }
+        }
+      }
+    },
+    "findigloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:igloo"
+          }
+        }
+      }
+    },
+    "findjunglepyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:jungle_pyramid"
+          }
+        }
+      }
+    },
+    "findswamphut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:swamp_hut"
+          }
+        }
+      }
+    },
+    "findwoodlandmansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:mansion"
+          }
+        }
+      }
+    },
+    "findshipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:shipwreck"
+          }
+        }
+      }
+    },
+    "findoceanmonument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:monument"
+          }
+        }
+      }
+    },
+    "findfortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:fortress"
+          }
+        }
+      }
+    },
+    "findbastionremnant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        }
+      }
+    },
+    "findendcity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    },
+    "findplainsvillage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_plains"
+          }
+        }
+      }
+    },
+    "findsavannavillage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_savanna"
+          }
+        }
+      }
+    },
+    "finddesertvillage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_desert"
+          }
+        }
+      }
+    },
+    "findsnowyvillage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_snowy"
+          }
+        }
+      }
+    },
+    "findtaigavillage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_taiga"
+          }
+        }
+      }
+    },
+    "findruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal"
+          }
+        }
+      }
+    },
+    "finddesertruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_desert"
+          }
+        }
+      }
+    },
+    "findjungleruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_jungle"
+          }
+        }
+      }
+    },
+    "findmountainruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_mountain"
+          }
+        }
+      }
+    },
+    "findnetherruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_nether"
+          }
+        }
+      }
+    },
+    "findswampruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_swamp"
+          }
+        }
+      }
+    },
+    "findoceanruinedportal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_ocean"
+          }
+        }
+      }
+    },
+    "findoceanruinscold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ocean_ruin_cold"
+          }
+        }
+      }
+    },
+    "findoceanruinswarm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ocean_ruin_warm"
+          }
+        }
+      }
+    },
+    "findshipwreckbeached": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:shipwreck_beached"
+          }
+        }
+      }
+    },
+    "findmineshaftmesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:mineshaft_mesa"
+          }
+        }
+      }
+    },
+    "findtrialchamber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:mineshaft_mesa"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["findoutpost"],
+    ["findancientcity"],
+    ["findbastionremnant"],
+    ["finddesertpyramid"],
+    ["findendcity"],
+    ["findfortress"],
+    ["findigloo"],
+    ["findjunglepyramid"],
+    ["findmineshaft"],
+    ["findmineshaftmesa"],
+    ["findoceanmonument"],
+    ["findoceanruinscold"],
+    ["findoceanruinswarm"],
+    ["findoceanruinedportal"],
+    ["findswampruinedportal"],
+    ["finddesertruinedportal"],
+    ["findjungleruinedportal"],
+    ["findnetherruinedportal"],
+    ["findmountainruinedportal"],
+    ["findshipwreck"],
+    ["findshipwreckbeached"],
+    ["findswamphut"],
+    ["findtrailruins"],
+    ["findplainsvillage"],
+    ["finddesertvillage"],
+    ["findsavannavillage"],
+    ["findtaigavillage"],
+    ["findsnowyvillage"],
+    ["findwoodlandmansion"],
+    ["findstronghold"],
+    ["findtrialchamber"],
+    ["findruinedportal"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

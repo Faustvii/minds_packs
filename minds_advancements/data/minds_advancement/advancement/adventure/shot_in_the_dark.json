@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.shot_in_the_dark.title",
+      "fallback": "A Shot In the Dark"
+    },
+    "description": {
+      "text": "Succesfully hit a entity from 25 blocks away while in a light level of 0"
+    },
+    "frame": "challenge",
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/shoot_arrow",
+  "criteria": {
+    "shootentity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "light": {
+                  "light": 0
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "horizontal": {
+                  "min": 25
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["shootentity"]],
+  "rewards": {
+    "experience": 50
+  }
+}

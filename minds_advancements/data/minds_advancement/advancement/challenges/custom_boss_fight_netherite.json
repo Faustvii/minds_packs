@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "translate": "minds.advancement.challenges.custom_boss_fight_netherite.title",
+      "fallback": "Netherite Zombie Fight!"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Give a zombie full netherite armor and a netherite sword... then kill it"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "minds_advancement:challenges/custom_boss_fight_diamond",
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie",
+          "equipment": {
+            "head": {
+              "items": ["minecraft:netherite_helmet"]
+            },
+            "chest": {
+              "items": ["minecraft:netherite_chestplate"]
+            },
+            "legs": {
+              "items": ["minecraft:netherite_leggings"]
+            },
+            "feet": {
+              "items": ["minecraft:netherite_boots"]
+            },
+            "mainhand": {
+              "items": ["minecraft:netherite_sword"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

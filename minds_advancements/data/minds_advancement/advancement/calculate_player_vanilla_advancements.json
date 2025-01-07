@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "minds_advancement:recalculate_player"
+    }
+  }
+  

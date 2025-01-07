@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": { "translate": "Strange Creepers" },
+    "description": {
+      "translate": "That creeeper looks different.. Maybe he's friendly"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/throw_trident",
+  "rewards": {},
+  "criteria": {
+    "hurt_by_explosion": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "creeper",
+            "nbt": "{powered:1b}"
+          }
+        }
+      }
+    },
+    "die_to_explosion": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "creeper",
+          "nbt": "{powered:1b}"
+        }
+      }
+    }
+  },
+  "requirements": [["hurt_by_explosion", "die_to_explosion"]]
+}

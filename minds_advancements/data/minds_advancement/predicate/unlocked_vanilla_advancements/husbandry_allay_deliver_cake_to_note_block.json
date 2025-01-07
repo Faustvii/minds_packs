@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "player",
+      "advancements": {
+        "minecraft:husbandry/allay_deliver_cake_to_note_block": true
+      }
+    }
+  }
+}

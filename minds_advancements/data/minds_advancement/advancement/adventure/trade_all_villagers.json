@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "minds.advancement.adventure.trade_all_villagers.title",
+      "fallback": "Dedicated Customer"
+    },
+    "description": {
+      "text": "Trade With All 7 Different Types of Villagers"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minds_advancement:adventure/traveller",
+  "criteria": {
+    "tradewithplains": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:plains"
+          }
+        }
+      }
+    },
+    "tradewithdesert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:desert"
+          }
+        }
+      }
+    },
+    "tradewithjungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "tradewithsnow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:snow"
+          }
+        }
+      }
+    },
+    "tradewithswamp": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:swamp"
+          }
+        }
+      }
+    },
+    "tradewithtaiga": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:taiga"
+          }
+        }
+      }
+    },
+    "tradewithsavanna": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type_specific": {
+            "type": "villager",
+            "variant": "minecraft:savanna"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["tradewithplains"],
+    ["tradewithdesert"],
+    ["tradewithjungle"],
+    ["tradewithsnow"],
+    ["tradewithswamp"],
+    ["tradewithtaiga"],
+    ["tradewithsavanna"]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}
