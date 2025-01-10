@@ -32,7 +32,7 @@
           "type": "minecraft:villager",
           "distance": {
             "y": {
-              "min": 30
+              "min": 15
             }
           },
           "movement": {
