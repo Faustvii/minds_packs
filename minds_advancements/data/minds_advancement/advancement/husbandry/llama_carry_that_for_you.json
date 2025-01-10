@@ -1,0 +1,35 @@
+{
+  "parent": "minds_advancement:husbandry/spitting_image",
+  "display": {
+    "title": {
+      "translate": "Llama Carry That for You?"
+    },
+    "description": {
+      "translate": "Tame a max-strength llama and let it handle the load, because why not let the llama do the work?"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    }
+  },
+  "criteria": {
+    "strong_llama": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minds_advancement:llamas",
+              "nbt": "{Strength:5}"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["strong_llama"]],
+  "rewards": {}
+}
