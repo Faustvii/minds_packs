@@ -332,7 +332,17 @@
       "conditions": {
         "player": {
           "location": {
-            "structures": "minecraft:mineshaft_mesa"
+            "structures": "minecraft:trial_chambers"
+          }
+        }
+      }
+    },
+    "findnetherfossil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:nether_fossil"
           }
         }
       }
@@ -370,7 +380,8 @@
     ["findwoodlandmansion"],
     ["findstronghold"],
     ["findtrialchamber"],
-    ["findruinedportal"]
+    ["findruinedportal"],
+    ["findnetherfossil"]
   ],
   "rewards": {
     "experience": 500
