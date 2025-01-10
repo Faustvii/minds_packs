@@ -1,0 +1,36 @@
+{
+  "parent": "minds_advancement:husbandry/fine_coat",
+  "display": {
+    "title": {
+      "translate": "Fast and Foalrious"
+    },
+    "description": {
+      "translate": "Tame the fastest horse possible"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "dyed_color": {
+          "rgb": 16287517
+        }
+      }
+    }
+  },
+  "criteria": {
+    "perfect_speed": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:horse",
+          "nbt": "{attributes:[{id:\"minecraft:movement_speed\",base:0.3375}]}"
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["perfect_speed"]],
+  "rewards": {
+    "experience": 500
+  }
+}

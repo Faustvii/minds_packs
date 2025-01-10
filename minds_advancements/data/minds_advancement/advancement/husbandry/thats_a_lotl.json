@@ -1,0 +1,106 @@
+{
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "display": {
+    "title": {
+      "translate": "That's a lotl"
+    },
+    "description": {
+      "translate": "Catch all the axoloth variants"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhmZDEwYjBmZWY0NTk1OTYwYjFmNjQxOTNiYzhhMTg2NWEyZDJlZDQ4YjJlMmNlMDNkOTk0NTYzMDI3ZGY5NSJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "blue"
+          },
+          "nbt": "{FromBucket:0b}"
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "cyan"
+          },
+          "nbt": "{FromBucket:0b}"
+        }
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "gold"
+          },
+          "nbt": "{FromBucket:0b}"
+        }
+      }
+    },
+    "lucy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "lucy"
+          },
+          "nbt": "{FromBucket:0b}"
+        }
+      }
+    },
+    "wild": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "wild"
+          },
+          "nbt": "{FromBucket:0b}"
+        }
+      }
+    }
+  },
+  "requirements": [["lucy"], ["gold"], ["cyan"], ["blue"], ["wild"]],
+  "rewards": {
+    "experience": 250
+  }
+}

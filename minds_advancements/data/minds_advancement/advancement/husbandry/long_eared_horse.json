@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "title": {
+      "translate": "The Long-Eared Horse"
+    },
+    "description": {
+      "translate": "Tame a donkey, because what you really need is a creature that moves at its own pace and lets you know just how slow that is."
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyNWVlOTI3M2FkNTc5ZDQ0YmY0MDZmNmY2Mjk1NTg2NDgxZWExOThmZDU3MjA3NmNkMGM1ODgyZGE3ZTZjYyJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "donkey": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:donkey"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["donkey"]],
+  "rewards": {}
+}

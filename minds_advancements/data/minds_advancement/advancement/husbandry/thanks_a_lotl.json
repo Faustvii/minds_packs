@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": { "translate": "Thanks a lotl" },
+    "description": {
+      "translate": "Team up with an Axolotl in an Ocean Monument to help clear the curse of the Elders"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:husbandry/kill_axolotl_target",
+  "rewards": {},
+  "criteria": {
+    "kill_axolotl_target": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "source": {
+          "type": "minecraft:axolotl",
+
+          "location": {
+            "structures": "monument"
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "monument"
+          }
+        }
+      }
+    }
+  }
+}

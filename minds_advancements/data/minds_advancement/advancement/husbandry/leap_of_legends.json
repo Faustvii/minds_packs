@@ -1,0 +1,36 @@
+{
+  "parent": "minds_advancement:husbandry/fine_coat",
+  "display": {
+    "title": {
+      "translate": "Leap of Legends"
+    },
+    "description": {
+      "translate": "Tame the highest jumping horse possible"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "dyed_color": {
+          "rgb": 1957880
+        }
+      }
+    }
+  },
+  "criteria": {
+    "perfect_jump": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:horse",
+          "nbt": "{attributes:[{id:\"minecraft:jump_strength\",base:1.0}]}"
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["perfect_jump"]],
+  "rewards": {
+    "experience": 500
+  }
+}

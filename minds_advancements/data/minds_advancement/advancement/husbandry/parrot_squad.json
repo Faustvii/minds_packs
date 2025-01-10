@@ -1,0 +1,121 @@
+{
+  "parent": "minds_advancement:husbandry/feathered_friend",
+  "display": {
+    "title": {
+      "translate": "The Parrot Squad"
+    },
+    "description": {
+      "translate": "Tame one of every parrot color and build your own feathered entourage! These guys go hard at parties!"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMzZmEyYTdlZjg2ZDJlZWY4M2UzOTM4YmM2NDFhYzkwOWRjNDQ0YzZiZTg0NTY2NjY0NDYxNDdmOWY5MGU2YiJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "red_blue": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "red_blue"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "gray": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "gray"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "green": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "green"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "yellow_blue": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "yellow_blue"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "blue": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "blue"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [
+    ["red_blue"],
+    ["gray"],
+    ["green"],
+    ["yellow_blue"],
+    ["blue"]
+  ],
+  "rewards": {}
+}

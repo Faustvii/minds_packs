@@ -1,0 +1,41 @@
+{
+  "parent": "minds_advancement:husbandry/fine_coat",
+  "display": {
+    "title": {
+      "translate": "Celestial Steed"
+    },
+    "description": {
+      "translate": "Tame the perfect horse (Speed, Health and Jump)"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhNTQxNmRiNmIzNDU3MzY4YWFhMDFmNGU4OWJjMjk2ODU5YzE5NWI4OTg5NTFlNjFjNTIwN2NlMzVkZDkifX19"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "perfect": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:horse",
+          "nbt": "{attributes:[{id:\"minecraft:jump_strength\",base:1.0},{id:\"minecraft:max_health\",base:30.0},{id:\"minecraft:movement_speed\",base:0.3375}]}"
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["perfect"]],
+  "rewards": {
+    "experience": 5000
+  }
+}

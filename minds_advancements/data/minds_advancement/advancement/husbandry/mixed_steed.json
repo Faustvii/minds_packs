@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "title": {
+      "translate": "Mixed steed"
+    },
+    "description": {
+      "translate": "Tame your first mule, because who wouldn’t want a stubborn, half-horse, half-donkey hybrid as their ride?"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFjMjI0YTEwMzFiZTQzNGQyNWFlMTg4NWJmNGZmNDAwYzk4OTRjNjliZmVmNTZhNDkzNTRjNTYyNWMwYzA5YyJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "mule": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:mule"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["mule"]],
+  "rewards": {}
+}

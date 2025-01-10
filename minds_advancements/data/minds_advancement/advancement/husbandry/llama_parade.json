@@ -1,0 +1,98 @@
+{
+  "parent": "minds_advancement:husbandry/spitting_image",
+  "display": {
+    "title": {
+      "translate": "The Llama Parade"
+    },
+    "description": {
+      "translate": "Tame one of each type of llama with a different fur color to form your very own caravan!"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU1NzA3NTZlMTkzMmYyZDk5ODZlYTBkNjJhOWQ2ZTFhOWJlY2M2MWU1MGUzNWQ2ZjVmMjZjY2Y3Yjg3NDZiNSJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "white": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "white"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "creamy": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "creamy"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "brown": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "brown"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "gray": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "gray"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "requirements": [["white"], ["creamy"], ["brown"], ["gray"]],
+  "rewards": {}
+}
