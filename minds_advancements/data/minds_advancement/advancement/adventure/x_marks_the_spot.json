@@ -4,8 +4,7 @@
       "id": "minecraft:filled_map"
     },
     "title": {
-      "translate": "bettera.advancement.adventure.x_marks_the_spot.title",
-      "fallback": "X Marks the Spot"
+      "translate": "X Marks the Spot"
     },
     "description": {
       "text": "Find buried treasure"
@@ -15,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bettera:adventure/pirate",
+  "parent": "minecraft:adventure/adventuring_time",
   "criteria": {
     "open_treasure": {
       "trigger": "minecraft:player_generates_container_loot",
