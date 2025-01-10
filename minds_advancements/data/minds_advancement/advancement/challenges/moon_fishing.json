@@ -17,7 +17,7 @@
     "title": { "translate": "Moon fishing" },
     "description": {
       "color": "dark_purple",
-      "translate": "Pull a villager with a fishing rod a minimum of 100 blocks vertical"
+      "translate": "Pull a villager with a fishing rod a minimum of 100 blocks vertical (Better with friends)"
     },
     "announce_to_chat": true,
     "frame": "challenge"
@@ -25,12 +25,17 @@
   "parent": "minecraft:husbandry/fishy_business",
   "rewards": {},
   "criteria": {
-    "pig": {
+    "moon_villager": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
           "type": "minecraft:villager",
           "distance": {
+            "y": {
+              "min": 30
+            }
+          },
+          "movement": {
             "y": {
               "min": 100
             }
