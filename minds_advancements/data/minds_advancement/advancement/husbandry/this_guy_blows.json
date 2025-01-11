@@ -1,0 +1,29 @@
+{
+  "parent": "minds_advancement:husbandry/kid_you_not",
+  "display": {
+    "title": {
+      "translate": "This Guy Blows"
+    },
+    "description": {
+      "translate": "Blow your first horn — because sometimes, you've just got to"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    }
+  },
+  "criteria": {
+    "horn": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn"
+        }
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [["horn"]],
+  "rewards": {}
+}

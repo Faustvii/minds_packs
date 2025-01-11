@@ -1,0 +1,38 @@
+{
+  "parent": "husbandry/breed_an_animal",
+  "display": {
+    "title": {
+      "translate": "The Path of the Bamboo"
+    },
+    "description": {
+      "translate": "Bring two pandas together and plant the seeds for a new generation."
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkZjQ3ZTAxNWQ1YzFjNjhkNzJiZTExYmI2NTYzODBmYzZkYjUzM2FhYjM4OTQxYTkxYjFkM2Q1ZTM5NjQ5NyJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "bred": {
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda"
+        }
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "requirements": [["bred"]],
+  "rewards": {}
+}

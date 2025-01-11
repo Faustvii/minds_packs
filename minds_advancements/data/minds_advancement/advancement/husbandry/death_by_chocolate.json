@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Death by Chocolate"
+    },
+    "description": {
+      "text": "Feed a parrot a cookie"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minds_advancement:husbandry/feathered_friend",
+  "criteria": {
+    "do_not_do_this": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cookie"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

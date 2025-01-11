@@ -1,0 +1,31 @@
+{
+  "parent": "minds_advancement:husbandry/kid_you_not",
+  "display": {
+    "title": {
+      "translate": "Getting Horny"
+    },
+    "description": {
+      "translate": "Grab your horn and start announcing your greatness!"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    },
+    "hidden": true
+  },
+  "criteria": {
+    "horn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["horn"]],
+  "rewards": {}
+}

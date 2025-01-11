@@ -1,0 +1,118 @@
+{
+  "parent": "minds_advancement:husbandry/this_guy_blows",
+  "display": {
+    "title": {
+      "translate": "The Big Blow"
+    },
+    "description": {
+      "translate": "Blow all the horns"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    }
+  },
+  "criteria": {
+    "admire": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:admire_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "call": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:call_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "dream": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:dream_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "feel": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:feel_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "ponder": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:ponder_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "seek": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:seek_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "sing": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:sing_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "yearn": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "components": {
+            "instrument": "minecraft:yearn_goat_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [
+    ["admire"],
+    ["call"],
+    ["dream"],
+    ["feel"],
+    ["ponder"],
+    ["seek"],
+    ["sing"],
+    ["yearn"]
+  ],
+  "rewards": {}
+}

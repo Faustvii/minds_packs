@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "display": {
+    "title": {
+      "translate": "Kid You Not"
+    },
+    "description": {
+      "translate": "Breed a goat, because you just had to add a little \"kid\" to your farm!"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc0NzNlMDU1ZGY2ZTdmZDk4NjY0ZTlmZGI2MzY3NWYwODgxMDYzMDVkNzQ0MDI0YTQxYmIzNTg5MThhMTQyYiJ9fX0="
+            }
+          ]
+        }
+      }
+    }
+  },
+  "criteria": {
+    "goat": {
+      "conditions": {
+        "child": {
+          "type": "minecraft:goat"
+        }
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "requirements": [["goat"]],
+  "rewards": {}
+}

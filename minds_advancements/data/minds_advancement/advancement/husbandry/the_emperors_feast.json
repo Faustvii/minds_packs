@@ -1,0 +1,112 @@
+{
+  "parent": "minds_advancement:husbandry/panda_monium",
+  "display": {
+    "title": {
+      "translate": "The Emperor's Feast"
+    },
+    "description": {
+      "translate": "Indulge every panda variant with cake, and treat them like royalty."
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    }
+  },
+  "criteria": {
+    "normal": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"normal\"}"
+        }
+      }
+    },
+    "aggressive": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"aggressive\"}"
+        }
+      }
+    },
+    "lazy": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"lazy\"}"
+        }
+      }
+    },
+    "worried": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"worried\"}"
+        }
+      }
+    },
+    "playful": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"playful\"}"
+        }
+      }
+    },
+    "weak": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        },
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["normal"],
+    ["aggressive"],
+    ["lazy"],
+    ["worried"],
+    ["playful"],
+    ["weak"],
+    ["brown"]
+  ],
+  "rewards": {}
+}

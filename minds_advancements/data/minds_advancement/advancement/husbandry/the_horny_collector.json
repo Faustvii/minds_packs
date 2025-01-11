@@ -1,0 +1,133 @@
+{
+  "parent": "minds_advancement:husbandry/getting_horny",
+  "display": {
+    "title": {
+      "translate": "The Horny Collector"
+    },
+    "description": {
+      "translate": "Gather every horn variant and embrace your true calling!"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    }
+  },
+  "criteria": {
+    "admire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:admire_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "call": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:call_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dream": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:dream_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "feel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:feel_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ponder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:ponder_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "seek": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:seek_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:sing_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yearn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "instrument": "minecraft:yearn_goat_horn"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    ["admire"],
+    ["call"],
+    ["dream"],
+    ["feel"],
+    ["ponder"],
+    ["seek"],
+    ["sing"],
+    ["yearn"]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minds_advancement:husbandry/the_path_of_the_bamboo",
+  "display": {
+    "title": {
+      "translate": "The Emperor's Delight"
+    },
+    "description": {
+      "translate": "Treat a panda to a delicious cake, a royal indulgence"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    }
+  },
+  "criteria": {
+    "fed": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:panda"
+        },
+        "item": {
+          "items": "minecraft:cake"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_entity"
+    }
+  },
+  "requirements": [["fed"]],
+  "rewards": {}
+}
