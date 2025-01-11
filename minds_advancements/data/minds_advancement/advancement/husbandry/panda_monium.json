@@ -74,7 +74,7 @@
       "conditions": {
         "child": {
           "type": "minecraft:panda",
-          "nbt": "{MainGene:\"weak\"}"
+          "nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
         }
       }
     },
@@ -83,7 +83,7 @@
       "conditions": {
         "child": {
           "type": "minecraft:panda",
-          "nbt": "{MainGene:\"brown\"}"
+          "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
         }
       }
     }
