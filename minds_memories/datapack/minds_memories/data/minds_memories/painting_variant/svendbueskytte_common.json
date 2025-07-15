@@ -1,0 +1,13 @@
+{
+  "title": {
+    "translate": "minds_memories.painting_variant.svendbueskytte.title",
+    "fallback": "Fake Certified Moon DJ"
+  },
+  "author": {
+    "translate": "minds.advancement.painting_variant.svendbueskytte.author",
+    "fallback": "Svend_Bueskytte"
+  },
+  "width": 2,
+  "height": 2,
+  "asset_id": "minds_memories:svendbueskytte_common"
+}
