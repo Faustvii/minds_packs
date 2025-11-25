@@ -1,11 +1,11 @@
 {
   "title": {
-    "translate": "minds_memories.painting_variant.svendbueskytte.title",
-    "fallback": "Fake Certified Moon DJ"
+    "text": "Fake Certified Moon DJ ",
+    "color": "yellow"
   },
   "author": {
-    "translate": "minds.advancement.painting_variant.svendbueskytte.author",
-    "fallback": "Svend_Bueskytte"
+    "text": "Svend_Bueskytte",
+    "color": "gray"
   },
   "width": 2,
   "height": 2,

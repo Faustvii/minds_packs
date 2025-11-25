@@ -1,11 +1,18 @@
 {
   "title": {
-    "translate": "minds_memories.painting_variant.svendbueskytte.title",
-    "fallback": "Original Certified Moon DJ"
+    "text": "Original Certified Moon DJ ",
+    "color": "yellow",
+    "extra": [
+      {
+        "text": "Can't be picked up once placed!",
+        "color": "dark_red",
+        "bold": true
+      }
+    ]
   },
   "author": {
-    "translate": "minds.advancement.painting_variant.svendbueskytte.author",
-    "fallback": "Svend_Bueskytte"
+    "text": "Svend_Bueskytte",
+    "color": "gray"
   },
   "width": 4,
   "height": 4,

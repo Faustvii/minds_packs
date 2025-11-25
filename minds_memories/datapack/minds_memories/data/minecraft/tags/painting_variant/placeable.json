@@ -1,6 +1,10 @@
 {
     "replace": false,
     "values": [
-        "minds_memories:svendbueskytte_common"
+        "minds_memories:svendbueskytte_common",
+        "minds_memories:cake_common",
+        "minds_memories:hest_common",
+        "minds_memories:local_leader_common",
+        "minds_memories:anders_common"
     ]
 }

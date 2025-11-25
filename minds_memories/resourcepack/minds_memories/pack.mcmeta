@@ -1,7 +1,8 @@
 {
   "pack": {
-    "pack_format": 34,
-    "supported_formats": [34, 46],
-    "description": "Minds Memories"
+    "pack_format": 69,
+    "description": "Minds Memories",
+    "min_format": 69,
+    "max_format": 999
   }
 }

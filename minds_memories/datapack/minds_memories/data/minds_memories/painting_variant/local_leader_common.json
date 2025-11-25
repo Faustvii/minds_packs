@@ -1,0 +1,13 @@
+{
+  "title": {
+    "translate": "minds_memories.painting_variant.local_leader.title",
+    "fallback": "Lokal Leader"
+  },
+  "author": {
+    "translate": "minds.advancement.painting_variant.local_leader.author",
+    "fallback": "Deepe Darker"
+  },
+  "width": 2,
+  "height": 2,
+  "asset_id": "minds_memories:local_leader_common"
+}
