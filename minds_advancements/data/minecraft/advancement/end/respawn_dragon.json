@@ -34,8 +34,8 @@
       "summoned_dragon"
     ]
   ],
+  "sends_telemetry_event": true,
   "rewards": {
     "function": "minds_advancement:add_score"
-  },
-  "sends_telemetry_event": true
+  }
 }

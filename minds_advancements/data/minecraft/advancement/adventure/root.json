@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
     "description": {
       "translate": "advancements.adventure.root.description"
     },
@@ -28,8 +28,8 @@
       "killed_by_something"
     ]
   ],
+  "sends_telemetry_event": true,
   "rewards": {
     "function": "minds_advancement:add_score"
-  },
-  "sends_telemetry_event": true
+  }
 }

@@ -1,24 +1,21 @@
 {
-  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "parent": "minecraft:adventure/root",
   "criteria": {
-    "under_lock_and_key": {
+    "use_lodestone": {
       "conditions": {
         "location": [
           {
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:vault",
-                "state": {
-                  "ominous": "false"
-                }
+                "blocks": "minecraft:lodestone"
               }
             }
           },
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:trial_key"
+              "items": "minecraft:compass"
             }
           }
         ]
@@ -28,19 +25,19 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.under_lock_and_key.description"
+      "translate": "advancements.adventure.use_lodestone.description"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:trial_key"
+      "id": "minecraft:lodestone"
     },
     "title": {
-      "translate": "advancements.adventure.under_lock_and_key.title"
+      "translate": "advancements.adventure.use_lodestone.title"
     }
   },
   "requirements": [
     [
-      "under_lock_and_key"
+      "use_lodestone"
     ]
   ],
   "sends_telemetry_event": true,

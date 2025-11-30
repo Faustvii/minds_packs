@@ -42,8 +42,8 @@
       "walk_on_powder_snow_with_leather_boots"
     ]
   ],
+  "sends_telemetry_event": true,
   "rewards": {
     "function": "minds_advancement:add_score"
-  },
-  "sends_telemetry_event": true
+  }
 }

@@ -13,7 +13,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "background": "minecraft:gui/advancements/backgrounds/stone",
     "description": {
       "translate": "advancements.story.root.description"
     },
@@ -31,8 +31,8 @@
       "crafting_table"
     ]
   ],
+  "sends_telemetry_event": true,
   "rewards": {
     "function": "minds_advancement:add_score"
-  },
-  "sends_telemetry_event": true
+  }
 }

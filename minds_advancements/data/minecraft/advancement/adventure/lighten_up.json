@@ -29,6 +29,7 @@
                 "minecraft:wooden_axe",
                 "minecraft:golden_axe",
                 "minecraft:stone_axe",
+                "minecraft:copper_axe",
                 "minecraft:iron_axe",
                 "minecraft:diamond_axe",
                 "minecraft:netherite_axe"
@@ -57,8 +58,8 @@
       "lighten_up"
     ]
   ],
+  "sends_telemetry_event": true,
   "rewards": {
     "function": "minds_advancement:add_score"
-  },
-  "sends_telemetry_event": true
+  }
 }
