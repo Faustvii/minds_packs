@@ -12,9 +12,7 @@
       "count": 1,
       "id": "minecraft:leather_horse_armor",
       "components": {
-        "dyed_color": {
-          "rgb": 16287517
-        }
+        "dyed_color": 16287517
       }
     }
   },
@@ -29,7 +27,11 @@
       "trigger": "minecraft:tame_animal"
     }
   },
-  "requirements": [["perfect_speed"]],
+  "requirements": [
+    [
+      "perfect_speed"
+    ]
+  ],
   "rewards": {
     "experience": 500
   }

@@ -31,9 +31,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:parrot",
-                "variant": "red_blue"
+              "type": "minecraft:parrot",
+              "components": {
+                "parrot/variant": "red_blue"
               }
             }
           }
@@ -48,9 +48,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:parrot",
-                "variant": "gray"
+              "type": "minecraft:parrot",
+              "components": {
+                "parrot/variant": "gray"
               }
             }
           }
@@ -65,9 +65,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:parrot",
-                "variant": "green"
+              "type": "minecraft:parrot",
+              "components": {
+                "parrot/variant": "green"
               }
             }
           }
@@ -82,9 +82,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:parrot",
-                "variant": "yellow_blue"
+              "type": "minecraft:parrot",
+              "components": {
+                "parrot/variant": "yellow_blue"
               }
             }
           }
@@ -99,9 +99,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:parrot",
-                "variant": "blue"
+              "type": "minecraft:parrot",
+              "components": {
+                "parrot/variant": "blue"
               }
             }
           }
@@ -111,11 +111,21 @@
     }
   },
   "requirements": [
-    ["red_blue"],
-    ["gray"],
-    ["green"],
-    ["yellow_blue"],
-    ["blue"]
+    [
+      "red_blue"
+    ],
+    [
+      "gray"
+    ],
+    [
+      "green"
+    ],
+    [
+      "yellow_blue"
+    ],
+    [
+      "blue"
+    ]
   ],
   "rewards": {}
 }

@@ -30,9 +30,9 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "blue"
+          "type": "minecraft:axolotl",
+          "components": {
+            "axolotl/variant": "blue"
           },
           "nbt": "{FromBucket:0b}"
         }
@@ -45,9 +45,9 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "cyan"
+          "type": "minecraft:axolotl",
+          "components": {
+            "axolotl/variant": "cyan"
           },
           "nbt": "{FromBucket:0b}"
         }
@@ -60,9 +60,9 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "gold"
+          "type": "minecraft:axolotl",
+          "components": {
+            "axolotl/variant": "gold"
           },
           "nbt": "{FromBucket:0b}"
         }
@@ -75,9 +75,9 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "lucy"
+          "type": "minecraft:axolotl",
+          "components": {
+            "axolotl/variant": "lucy"
           },
           "nbt": "{FromBucket:0b}"
         }
@@ -90,16 +90,32 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "wild"
+          "type": "minecraft:axolotl",
+          "components": {
+            "axolotl/variant": "wild"
           },
           "nbt": "{FromBucket:0b}"
         }
       }
     }
   },
-  "requirements": [["lucy"], ["gold"], ["cyan"], ["blue"], ["wild"]],
+  "requirements": [
+    [
+      "lucy"
+    ],
+    [
+      "gold"
+    ],
+    [
+      "cyan"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "wild"
+    ]
+  ],
   "rewards": {
     "experience": 250
   }

@@ -21,9 +21,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:plains"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:plains"
           }
         }
       }
@@ -32,9 +32,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:desert"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:desert"
           }
         }
       }
@@ -43,9 +43,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:jungle"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:jungle"
           }
         }
       }
@@ -54,9 +54,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:snow"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:snow"
           }
         }
       }
@@ -65,9 +65,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:swamp"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:swamp"
           }
         }
       }
@@ -76,9 +76,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:taiga"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:taiga"
           }
         }
       }
@@ -87,9 +87,9 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type_specific": {
-            "type": "villager",
-            "variant": "minecraft:savanna"
+          "type": "villager",
+          "components": {
+            "villager/variant": "minecraft:savanna"
           }
         }
       }

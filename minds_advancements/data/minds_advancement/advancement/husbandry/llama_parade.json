@@ -31,9 +31,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:llama",
-                "variant": "white"
+              "type": "minecraft:llama",
+              "components": {
+                "llama/variant": "white"
               }
             }
           }
@@ -48,9 +48,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:llama",
-                "variant": "creamy"
+              "type": "minecraft:llama",
+              "components": {
+                "llama/variant": "creamy"
               }
             }
           }
@@ -65,9 +65,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:llama",
-                "variant": "brown"
+              "type": "minecraft:llama",
+              "components": {
+                "llama/variant": "brown"
               }
             }
           }
@@ -82,9 +82,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:llama",
-                "variant": "gray"
+              "type": "minecraft:llama",
+              "components": {
+                "llama/variant": "gray"
               }
             }
           }
@@ -93,6 +93,19 @@
       "trigger": "minecraft:tame_animal"
     }
   },
-  "requirements": [["white"], ["creamy"], ["brown"], ["gray"]],
+  "requirements": [
+    [
+      "white"
+    ],
+    [
+      "creamy"
+    ],
+    [
+      "brown"
+    ],
+    [
+      "gray"
+    ]
+  ],
   "rewards": {}
 }
