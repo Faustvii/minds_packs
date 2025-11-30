@@ -1,38 +1,38 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:deepslate"
-            }
-          ]
-        }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "recipes": [
-        "deepcutting:chiseled_deepslate_from_deepslate",
-        "deepcutting:cobbled_deepslate_from_deepslate",
-        "deepcutting:cobbled_deepslate_slab_from_deepslate",
-        "deepcutting:cobbled_deepslate_stairs_from_deepslate",
-        "deepcutting:cobbled_deepslate_wall_from_deepslate",
-        "deepcutting:cracked_deepslate_bricks_from_deepslate",
-        "deepcutting:cracked_deepslate_tiles_from_deepslate",
-        "deepcutting:deepslate_brick_slab_from_deepslate",
-        "deepcutting:deepslate_brick_stairs_from_deepslate",
-        "deepcutting:deepslate_brick_wall_from_deepslate",
-        "deepcutting:deepslate_bricks_from_deepslate",
-        "deepcutting:deepslate_tile_slab_from_deepslate_1",
-        "deepcutting:deepslate_tile_slab_from_deepslate_2",
-        "deepcutting:deepslate_tile_stairs_from_deepslate",
-        "deepcutting:deepslate_tile_wall_from_deepslate",
-        "deepcutting:deepslate_tiles_from_deepslate",
-        "deepcutting:polished_deepslate_from_deepslate",
-        "deepcutting:polished_deepslate_slab_from_deepslate",
-        "deepcutting:polished_deepslate_stairs_from_deepslate",
-        "deepcutting:polished_deepslate_wall_from_deepslate"
-      ]
     }
+  },
+  "rewards": {
+    "recipes": [
+      "deepcutting:chiseled_deepslate_from_deepslate",
+      "deepcutting:cobbled_deepslate_from_deepslate",
+      "deepcutting:cobbled_deepslate_slab_from_deepslate",
+      "deepcutting:cobbled_deepslate_stairs_from_deepslate",
+      "deepcutting:cobbled_deepslate_wall_from_deepslate",
+      "deepcutting:cracked_deepslate_bricks_from_deepslate",
+      "deepcutting:cracked_deepslate_tiles_from_deepslate",
+      "deepcutting:deepslate_brick_slab_from_deepslate",
+      "deepcutting:deepslate_brick_stairs_from_deepslate",
+      "deepcutting:deepslate_brick_wall_from_deepslate",
+      "deepcutting:deepslate_bricks_from_deepslate",
+      "deepcutting:deepslate_tile_slab_from_deepslate_1",
+      "deepcutting:deepslate_tile_slab_from_deepslate_2",
+      "deepcutting:deepslate_tile_stairs_from_deepslate",
+      "deepcutting:deepslate_tile_wall_from_deepslate",
+      "deepcutting:deepslate_tiles_from_deepslate",
+      "deepcutting:polished_deepslate_from_deepslate",
+      "deepcutting:polished_deepslate_slab_from_deepslate",
+      "deepcutting:polished_deepslate_stairs_from_deepslate",
+      "deepcutting:polished_deepslate_wall_from_deepslate"
+    ]
   }
+}

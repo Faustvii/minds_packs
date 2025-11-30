@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Minds Advancements",
+        "description": "Adds additional advancements and challenges.",
+        "icon": {
+            "id": "minecraft:mojang_banner_pattern"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

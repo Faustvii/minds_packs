@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "values": [
+        "minds_memories:2x2/andersproud",
+        "minds_memories:2x2/franzbase",
+        "minds_memories:2x2/mikefac",
+        "minds_memories:2x2/moon",
+        "minds_memories:2x2/norlemmonument",
+        "minds_memories:2x2/pandaisland",
+        "minds_memories:2x2/rocketboi",
+        "minds_memories:2x2/stockholm",
+
+        "minds_memories:2x4/rolfbase",
+
+        "minds_memories:4x2/andersbase",
+        "minds_memories:4x2/blastfrompast",
+        "minds_memories:4x2/blastfrompastone",
+        "minds_memories:4x2/blastfrompasttwo",
+        "minds_memories:4x2/dragondown",
+        "minds_memories:4x2/dsb",
+        "minds_memories:4x2/icebears",
+        "minds_memories:4x2/jonasbase",
+        "minds_memories:4x2/leamikeone",
+        "minds_memories:4x2/leamiketwo",
+        "minds_memories:4x2/norlembase",
+        "minds_memories:4x2/oliverbase",
+        "minds_memories:4x2/rolfbasefundet",
+        "minds_memories:4x2/spleefing",
+        "minds_memories:4x2/sunset",
+        
+        "minds_memories:4x4/katcake",
+        "minds_memories:4x4/stokholmbase",
+        "minds_memories:4x4/theadventurer"
+    ]
+}

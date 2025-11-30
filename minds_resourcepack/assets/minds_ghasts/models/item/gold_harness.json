@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minds_ghasts:item/gold_harness"
+  }
+}

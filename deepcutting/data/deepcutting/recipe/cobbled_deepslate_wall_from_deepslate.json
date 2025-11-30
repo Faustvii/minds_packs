@@ -1,9 +1,9 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-      "minecraft:deepslate",
-      "minecraft:polished_deepslate",
-      "minecraft:polished_deepslate_wall"
+    "minecraft:deepslate",
+    "minecraft:polished_deepslate",
+    "minecraft:polished_deepslate_wall"
   ],
   "result": {
     "id": "minecraft:cobbled_deepslate_wall",

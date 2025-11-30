@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "loggedin": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "minds_memories:give_momento"
+  }
+}

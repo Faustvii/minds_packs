@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/combat/white_harness",
+  "criteria": {
+    "harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:harnesses"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minds_ghasts:netherite_harness",
+      "minds_ghasts:diamond_harness",
+      "minds_ghasts:gold_harness"
+    ]
+  }
+}

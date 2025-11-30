@@ -1,0 +1,20 @@
+{
+  "title": {
+    "text": "Original Certified Moon DJ ",
+    "color": "yellow",
+    "extra": [
+      {
+        "text": "Can't be picked up once placed!",
+        "color": "dark_red",
+        "bold": true
+      }
+    ]
+  },
+  "author": {
+    "text": "Svend_Bueskytte",
+    "color": "gray"
+  },
+  "width": 2,
+  "height": 2,
+  "asset_id": "minds_memories:2x2/moon2_2"
+}

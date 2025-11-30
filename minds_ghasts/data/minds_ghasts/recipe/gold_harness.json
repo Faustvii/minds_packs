@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+	"group": "tiered_harnesses",
+  "pattern": [
+    "LLL",
+    "GWG",
+    "ASA"
+  ],
+  "key": {
+    "L": "minecraft:rabbit_hide",
+    "G": "minecraft:glass",
+    "W": "#minecraft:wool",
+    "S": "minecraft:rabbit_foot",
+    "A": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "minecraft:white_harness",
+    "components": {
+      "custom_name": {
+        "text": "Gold Harness"
+      },
+      "attribute_modifiers": [
+				{
+					"amount": 0.15,
+					"id": "minecraft:flying_speed",
+					"slot": "body",
+					"type": "minecraft:flying_speed",
+					"operation": "add_multiplied_base"
+				}
+			],
+      "equippable": {
+				"slot": "body",
+				"asset_id": "minds_ghasts:gold_harness",
+				"allowed_entities": "minecraft:happy_ghast",
+				"dispensable": true,
+				"equip_on_interact": true,
+				"can_be_sheared": true,
+				"shearing_sound": "minecraft:entity.happy_ghast.unequip",
+				"equip_sound": "minecraft:entity.happy_ghast.equip"
+			},
+      "minecraft:item_model": "minds_ghasts:gold_harness"
+    },
+    "count": 1
+  }
+}
