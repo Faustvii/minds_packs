@@ -1,0 +1,70 @@
+name: Release Minecraft Packs
+
+on:
+  push:
+    tags:
+      - "v*.*.*-mc*.*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Datapack version (e.g., 0.0.2)"
+        required: true
+        type: string
+      mc_version:
+        description: "Minecraft version (e.g., 1.21.11)"
+        required: true
+        type: string
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Parse version from tag or inputs
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ inputs.version }}"
+            MC_VERSION="${{ inputs.mc_version }}"
+            echo "Manual dispatch with version: $VERSION, MC version: $MC_VERSION"
+          else
+            TAG="${{ github.ref_name }}"
+            echo "Processing tag: $TAG"
+            
+            # Validate tag format: v*.*.*-mc*.*
+            if [[ ! "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+-mc.+$ ]]; then
+              echo "Error: Tag format must be v{semver}-mc{mcversion} (e.g., v0.0.2-mc1.21.11)"
+              exit 1
+            fi
+            
+            # Extract version (remove 'v' prefix and everything after '-mc')
+            VERSION=$(echo "$TAG" | sed 's/^v//' | sed 's/-mc.*//')
+            
+            # Extract MC version (everything after '-mc')
+            MC_VERSION=$(echo "$TAG" | sed 's/.*-mc//')
+            
+            echo "Extracted version: $VERSION, MC version: $MC_VERSION"
+          fi
+
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+          echo "release_name=v$VERSION (Minecraft $MC_VERSION)" >> $GITHUB_OUTPUT
+
+      - name: Build packs using newVersion.sh
+        run: |
+          chmod +x newVersion.sh
+          ./newVersion.sh "${{ steps.version.outputs.version }}" "${{ steps.version.outputs.mc_version }}"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ steps.version.outputs.release_name }}
+          files: "*.zip"
+          fail_on_unmatched_files: true
+          draft: false
+          prerelease: false
