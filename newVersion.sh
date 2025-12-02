@@ -9,3 +9,5 @@ fi
 (cd minds_memories/ && zip -r "../MindsMemories_v${1}_mc_${2}_dp.zip" pack.mcmeta data)
 (cd minds_ghasts/ && zip -r "../MindsGhasts_v${1}_mc_${2}_dp.zip" pack.mcmeta data)
 (cd deepcutting/ && zip -r "../MindsDeepcutting_v${1}_mc_${2}_dp.zip" pack.mcmeta data)
+
+sha1sum MindsResources_v${1}_mc_${2}_rp.zip > MindsResources_v${1}_mc_${2}_rp.sha1.txt
