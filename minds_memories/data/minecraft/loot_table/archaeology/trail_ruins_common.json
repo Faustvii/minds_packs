@@ -144,6 +144,49 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "§6§lThe Viking Snail"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "§7This Viking is often mistaken for a snail."
+                },
+                {
+                  "text": "§c§lCannot be picked up once placed!"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "entity_data": {
+                  "id": "minecraft:painting",
+                  "variant": "minds_memories:2x2/stockholm"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:archaeology/trail_ruins_common"

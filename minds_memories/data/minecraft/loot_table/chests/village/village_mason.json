@@ -1,56 +1,72 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "minecraft:chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blade_pottery_sherd"
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:clay_ball"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:explorer_pottery_sherd"
+          "name": "minecraft:flower_pot"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:mourner_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:plenty_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:stone",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat",
+          "name": "minecraft:stone_bricks",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_hoe",
-          "weight": 2
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 2
+          "name": "minecraft:yellow_dye"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
-          "weight": 2
+          "name": "minecraft:smooth_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 1.0
+      }
     },
     {
       "bonus_rolls": 0.0,
@@ -66,7 +82,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "§6§lRocket Gone Rogue"
+                "text": "§6§lJonas' Steadfast Home"
               }
             },
             {
@@ -74,7 +90,7 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "text": "§7They have no idea we're coming."
+                  "text": "§7Santa has been spotted."
                 },
                 {
                   "text": "§c§lCannot be picked up once placed!"
@@ -86,7 +102,7 @@
               "components": {
                 "entity_data": {
                   "id": "minecraft:painting",
-                  "variant": "minds_memories:2x2/rocketboi"
+                  "variant": "minds_memories:4x2/jonasbase"
                 }
               }
             }
@@ -96,5 +112,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
+  "random_sequence": "minecraft:chests/village/village_mason"
 }

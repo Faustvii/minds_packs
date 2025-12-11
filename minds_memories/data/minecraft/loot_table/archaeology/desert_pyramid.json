@@ -35,16 +35,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald"
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:painting",
-          "weight": 500,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "§6§lCertified Moon DJ Painting"
+                "text": "§6§lSuspendous Spleefing"
               }
             },
             {
@@ -52,10 +57,10 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "text": "§7An original Certified Moon DJ painting by Svend_Bueskytte."
+                  "text": "§7Watch out below!"
                 },
                 {
-                  "text": "§7A rare find indeed!"
+                  "text": "§c§lCannot be picked up once placed!"
                 }
               ]
             },
@@ -64,7 +69,7 @@
               "components": {
                 "entity_data": {
                   "id": "minecraft:painting",
-                  "variant": "minds_memories:svendbueskytte_unique"
+                  "variant": "minds_memories:4x2/spleefing"
                 }
               }
             }

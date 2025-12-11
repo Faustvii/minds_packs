@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "§6§lDude(ette)s & Dragons",
+                "type": "text"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "§7A party having slain a dragon"
+                },
+                {
+                  "text": "§c§lCannot be picked up once placed!"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "entity_data": {
+                  "id": "minecraft:painting",
+                  "variant": "minds_memories:4x2/dragondown"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/ender_dragon"
+}
